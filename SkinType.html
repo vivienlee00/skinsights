@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+
+<head>
+<title>skInsights</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="mobile">
+        What is your skin type?
+        <br><br>
+        <input type="button" name="Ignore Select" value="Oily" id="select" class="skinType" />
+        <input type="button" name="Ignore Select" value="Dry" id="select" class="skinType" />
+        <br>
+        <input type="button" name="Ignore Select" value="Combination" id="select" class="skinType" />
+        <input type="button" name="Ignore Select" value="Unsure" id="select" class="skinType" />
+        <br><br>
+        <button type="button" onclick="location.href='Routine.html';">Next >>></button>
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+<style scoped>
+
+    .skinConcern {
+        background:rgb(255, 255, 255);
+    }
+    .skinConcern.highlight {
+        background:rgb(206, 218, 226);
+    }
+
+    .skinType {
+        background:rgb(255, 255, 255);
+    }
+    .skinType.highlight {
+        background:rgb(206, 218, 226);
+    }
+
+    .GoToView {
+      position:fixed;
+      right:15%;
+      bottom:8%;
+      width: 50px;
+      height: 50px;
+      padding: 6px 0px;
+      border-radius: 15px;
+      text-align: center;
+      color:white;
+    }
+    
+    .mobile {
+        max-width: 500px;
+        background-color: rgb(152, 177, 214);
+        padding-bottom: 20px;
+        color: rgb(17, 49, 97);
+        text-align:center;
+      }
+    
+    .head{
+      background-color:#479563;
+    }
+    
+    .back_button {
+      color:black;
+      background-color:#479563;
+      border-color:#479563;
+    }
+    
+    .back_button:hover {
+      background-color: #479563;
+      border-color:#479563;
+    }
+    
+    .apply_button {
+      background-color:black;
+      color:white;
+      border-color:black;
+    }
+    
+    .light_button {
+      background-color:rgb(207, 207, 168);
+      border-color:rgb(207, 207, 168);
+      color:black;
+      height: 45px;
+    
+    }
+    
+    .light_button:hover {
+      background-color: #479563;
+      border-color:#479563;
+    }
+    
+    .searchicon {
+      left:-10px;
+    }
+    
+    .search {
+      width: 270px;
+      height:45px;
+      padding-left: 30px;
+      margin-left: -20px;
+    }
+    
+    .no_button {
+      background-color:rgb(207, 207, 168);
+      border-color:rgb(207, 207, 168);
+      color:black;
+      height: 45px;
+    }
+    
+    .no_button:hover{
+      border-color:rgb(207, 207, 168);
+      color:black;
+    }
+    
+    .clear_search_button {
+        background-color:none;
+        border: none !important;
+        color:black;
+        height: 45px;
+        margin-top: 0px;
+        margin-left: -10px;
+    }
+    
+    .collections_button {
+      margin-left: -70px;
+    }
+    
+    .layout_buttons {
+      margin-left: 97px;
+    }
+    
+    .group {
+      text-align:left;
+    }
+    
+    .form-check {
+      text-align: left;
+      padding-left: 41px;
+    }
+    
+    .close_button {
+      color:white;
+      background-color:black;
+      border-color:black;
+      margin-left: 370px;
+    }
+    
+    .add_button {
+        border-color: #479563;
+        color: #479563;
+    }
+    
+    .add_button:hover{
+        color: white;
+        background-color: #479563;
+        border-color: #479563;
+    }
+    
+    .filtered_by {
+      margin-left: 23px;
+      margin-top: 15px;
+      text-align: left;
+      margin-right: 20px;
+    }
+    
+    .filters{
+      display: flex;
+      align-items: left;
+    }
+    
+    </style>
+
+</html>
