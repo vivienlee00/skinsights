@@ -65,7 +65,7 @@ $(document).ready(function() {
                   <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
             </tr>
             <tr>
-                  <td class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+                  <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
                   <td class="masks">Face Mask: GlamGlow BRIGHTMUDTM Dual-Action Exfoliating Treatment Mask</td>
             </tr>
     </table>
@@ -103,7 +103,7 @@ $(document).ready(function() {
                   <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
             </tr>
             <tr>
-                  <td class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+                  <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
                   <td class="masks">Face Mask: GlamGlow THIRSTYMUD 24 Hour Hydrating Treatment Mask</td>
             </tr>
     </table>
@@ -141,7 +141,7 @@ $(document).ready(function() {
                   <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
             </tr>
             <tr>
-                  <td class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+                  <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
                   <td class="masks">Face Mask: Clinique Acne Solutions Oil-Control Cleansing Face Mask</td>
             </tr>
     </table>
@@ -167,6 +167,10 @@ $(document).ready(function() {
       document.getElementById("exfoliatorProd").style.color = "rgb(17, 49, 97)";
     }
 
+    if (skinProducts.includes("spf")){
+      document.getElementById("spfProd").style.color = "rgb(17, 49, 97)";
+    }
+
 });
 
 function showProducts(item, index){
@@ -178,6 +182,11 @@ function showProducts(item, index){
             if (item == "makeupRemover"){
                   document.getElementById("exfoliatorProd").style.removeProperty("display");
                   document.getElementById("exfoliatorProd").style.color = "rgba(0, 0, 0, 0)";
+            }
+
+            if (item == "masks"){
+                  document.getElementById("spfProd").style.removeProperty("display");
+                  document.getElementById("spfProd").style.color = "rgba(0, 0, 0, 0)";
             }
       }
 }
