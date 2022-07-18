@@ -1,0 +1,29 @@
+.skinConcern {
+    background:rgb(255, 255, 255);
+}
+.skinConcern.highlight {
+    background:rgb(206, 218, 226);
+}
+
+.skinType {
+    background:rgb(255, 255, 255);
+}
+.skinType.highlight {
+    background:rgb(206, 218, 226);
+}
+
+.skinProduct {
+    background:rgb(255, 255, 255);
+}
+.skinProduct.highlight {
+    background:rgb(206, 218, 226);
+}
+
+.mobile {
+    max-width: 500px;
+    /*background-color: rgb(152, 177, 214);*/
+    background-image: url("../assets/signUpBG.png");
+    padding-bottom: 20px;
+    color: rgb(17, 49, 97);
+    text-align:center;
+  }
