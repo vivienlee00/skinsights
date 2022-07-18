@@ -41,32 +41,32 @@ $(document).ready(function() {
                   <th>Night Routine</th>
             </tr>
             <tr>
-                  <td>Exfoliator: Clinique Clarifying Lotion Exfoliator 4</td>
-                  <td>Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
-                  </tr>
-            <tr>
-                  <td>Face Wash: Origins Checks and Balances Polishing Face Scrub</td>
-                  <td>Face Wash: Clinique All About CleanTM Liquid Facial Soap Oily</td>
+                  <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 4</td>
+                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
             </tr>
             <tr>
-                  <td>Toner: Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</td>
-                  <td>Toner: GlamGlow SUPERTONER Exfoliating Acid Solution</td>
+                  <td class="cleanser">Cleanser: Origins Checks and Balances Polishing Face Scrub</td>
+                  <td class="cleanser">Cleanser: Clinique All About CleanTM Liquid Facial Soap Oily</td>
             </tr>
             <tr>
-                  <td>Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
-                  <td>Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
+                  <td class="toner">Toner: Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</td>
+                  <td class="toner">Toner: GlamGlow SUPERTONER Exfoliating Acid Solution</td>
             </tr>
             <tr>
-                  <td>Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-                  <td>Eye Cream: Origins EYE DOCTOR Moisture Care For Skin Around Eyes</td>
+                  <td class="serum">Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
+                  <td class="serum">Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
             </tr>
             <tr>
-                  <td>Moisturizer: Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</td>
-                  <td>Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
+                  <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
+                  <td class="eyeCream">Eye Cream: Origins EYE DOCTOR Moisture Care For Skin Around Eyes</td>
             </tr>
             <tr>
-                  <td>SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
-                  <td>Face Mask: GlamGlow BRIGHTMUDTM Dual-Action Exfoliating Treatment Mask</td>
+                  <td class="moisturizer">Moisturizer: Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</td>
+                  <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
+            </tr>
+            <tr>
+                  <td class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+                  <td class="masks">Face Mask: GlamGlow BRIGHTMUDTM Dual-Action Exfoliating Treatment Mask</td>
             </tr>
     </table>
     `;
@@ -79,32 +79,32 @@ $(document).ready(function() {
                   <th>Night Routine</th>
             </tr>
             <tr>
-                  <td>Exfoliator: Clinique Clarifying Lotion Exfoliator 1.0 Alcohol-free</td>
-                  <td>Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
+                  <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 1.0 Alcohol-free</td>
+                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
                   </tr>
             <tr>
-                  <td>Face Wash: Origins Checks and Balances Frothy Face Wash</td>
-                  <td>Face Wash: Origins Checks and Balances Frothy Face Wash</td>
+                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
+                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
             </tr>
             <tr>
-                  <td>Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
-                  <td>Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
+                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
+                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
             </tr>
             <tr>
-                  <td>Serum: Origins Ginzing Into the Glow Brightening Serum</td>
-                  <td>Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
+                  <td class="serum">Serum: Origins Ginzing Into the Glow Brightening Serum</td>
+                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
             </tr>
             <tr>
-                  <td>Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-                  <td>Eye Cream: Clinique All About Eyes</td>
+                  <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
+                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
             </tr>
             <tr>
-                  <td>Moisturizer: Dr. Jart+ Ceramidin Cream</td>
-                  <td>Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
+                  <td class="moisturizer">Moisturizer: Dr. Jart+ Ceramidin Cream</td>
+                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
             </tr>
             <tr>
-                  <td>SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
-                  <td>Face Mask: GlamGlow THIRSTYMUD 24 Hour Hydrating Treatment Mask</td>
+                  <td class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+                  <td class="masks">Face Mask: GlamGlow THIRSTYMUD 24 Hour Hydrating Treatment Mask</td>
             </tr>
     </table>
     `;
@@ -117,32 +117,32 @@ $(document).ready(function() {
                   <th>Night Routine</th>
             </tr>
             <tr>
-                  <td>Exfoliator: Clinique Clarifying Lotion Exfoliator 2</td>
-                  <td>Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
+                  <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 2</td>
+                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
                   </tr>
             <tr>
-                  <td>Face Wash: Origins Checks and Balances Frothy Face Wash</td>
-                  <td>Face Wash: Origins Checks and Balances Frothy Face Wash</td>
+                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
+                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
             </tr>
             <tr>
-                  <td>Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
-                  <td>Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
+                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
+                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
             </tr>
             <tr>
-                  <td>Serum: Origins Ginzing Into the Glow Brightening Serum</td>
-                  <td>Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
+                  <td class="serum">Serum: Origins Ginzing Into the Glow Brightening Serum</td>
+                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
             </tr>
             <tr>
-                  <td>Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-                  <td>Eye Cream: Clinique All About Eyes</td>
+                  <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
+                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
             </tr>
             <tr>
-                  <td>Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
-                  <td>Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
+                  <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
+                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
             </tr>
             <tr>
-                  <td>SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
-                  <td>Face Mask: Clinique Acne Solutions Oil-Control Cleansing Face Mask</td>
+                  <td class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+                  <td class="masks">Face Mask: Clinique Acne Solutions Oil-Control Cleansing Face Mask</td>
             </tr>
     </table>
     `;
@@ -160,4 +160,24 @@ $(document).ready(function() {
         document.getElementById("quizResults").innerHTML = comboSkin;
     }
 
+    w3.hide('td');
+
+    skinProducts.forEach(showProducts);
+    if (skinProducts.includes("exfoliator")){
+      document.getElementById("exfoliatorProd").style.color = "rgb(17, 49, 97)";
+    }
+
 });
+
+function showProducts(item, index){
+      var prod = document.getElementsByClassName(item);
+
+      for (var i = 0; i < prod.length; i++) {
+            prod[i].style.removeProperty("display");
+
+            if (item == "makeupRemover"){
+                  document.getElementById("exfoliatorProd").style.removeProperty("display");
+                  document.getElementById("exfoliatorProd").style.color = "rgba(0, 0, 0, 0)";
+            }
+      }
+}
