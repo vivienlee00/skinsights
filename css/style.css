@@ -115,7 +115,7 @@ input[type=button] {
     appearance: none;
     background-color: #ffffff;
     border: 1px solid rgba(27, 31, 35, 0.15);
-    border-radius: 6px;
+    border-radius: 15px;
     box-shadow: rgba(255, 255, 255, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
     box-sizing: border-box;
     color: #002343;
@@ -135,8 +135,10 @@ input[type=button] {
     vertical-align: middle;
     white-space: nowrap;
     word-wrap: break-word;  
-    margin: 2px;
+    margin: 1vw;
     font-family: Optima, sans-serif;
+    font-size: 2vh;
+    height: 2em;
 }
 
 input[type=text], input[type=tel] {
@@ -157,5 +159,14 @@ input[type=date] {
   border-width: 0;
   box-shadow: 0px 1px #888888;
   font-size: 2vh;
+  font-family: Verdana, Optima, sans-serif;
+}
+
+input[type=file] {
+  height: 2em;
+  width: 13em;
+  border-width: 0;
+  font-size: 2vh;
+  margin-top: 1vh;
   font-family: Verdana, Optima, sans-serif;
 }
