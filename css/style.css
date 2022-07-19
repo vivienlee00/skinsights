@@ -56,19 +56,17 @@ button {
   appearance: none;
   background-color: #002343;
   border: 1px solid rgba(27, 31, 35, 0.15);
-  border-radius: 6px;
+  border-radius: 20px;
   box-shadow: rgba(255, 255, 255, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  
-  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   list-style: none;
-  padding: 6px 16px;
+  padding: 26px 60px;
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
@@ -78,6 +76,8 @@ button {
   white-space: nowrap;
   word-wrap: break-word;
   font-family: Optima, sans-serif;
+  font-size: 2vh;
+  height: 2em;
 }
 
 button:hover {
@@ -140,12 +140,22 @@ input[type=button] {
 }
 
 input[type=text], input[type=tel] {
-  margin-top: 2em;
-  height: 6em;
-  width: 50em;
+  margin-top: 1em;
+  height: 2em;
+  width: 15em;
+  border-radius: 15px;
+  border-width: 0;
+  box-shadow: 0px 1px #888888;
+  font-size: 2vh;
+  font-family: Verdana, Optima, sans-serif;
 }
 
 input[type=date] {
-  height: 6em;
-  width: 20em;
+  height: 2em;
+  width: 10em;
+  border-radius: 15px;
+  border-width: 0;
+  box-shadow: 0px 1px #888888;
+  font-size: 2vh;
+  font-family: Verdana, Optima, sans-serif;
 }
