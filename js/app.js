@@ -164,11 +164,11 @@ $(document).ready(function() {
 
     skinProducts.forEach(showProducts);
     if (skinProducts.includes("exfoliator")){
-      document.getElementById("exfoliatorProd").style.color = "rgb(17, 49, 97)";
+      document.getElementById("exfoliatorProd").style.color = "white";
     }
 
     if (skinProducts.includes("spf")){
-      document.getElementById("spfProd").style.color = "rgb(17, 49, 97)";
+      document.getElementById("spfProd").style.color = "white";
     }
 
 });
