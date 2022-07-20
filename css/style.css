@@ -176,3 +176,21 @@ input[type=file] {
   margin-left: 3vw;
   height: 5vh;
 }
+
+.navbar {
+  background-color: #203768;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar img{
+  height: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

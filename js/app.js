@@ -196,3 +196,12 @@ function phoneMask() {
     $(this).val(num.substring(0,3) + '-' + num.substring(3,6) + '-' + num.substring(6,10)); 
 }
 $('[type="tel"]').focusout(phoneMask);
+
+// function myFunction() {
+//     var x = document.getElementById("navbar");
+//     if (x.className === "navbar") {
+//       x.className += " responsive";
+//     } else {
+//       x.className = "navbar";
+//     }
+//   }
