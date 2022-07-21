@@ -35,6 +35,7 @@ $(document).ready(function() {
 
     const oilySkin = 
     `
+    Your Routines
     <table>
             <tr>
                   <th>Morning Routine</th>
@@ -73,6 +74,7 @@ $(document).ready(function() {
 
     const drySkin = 
     `
+    Your Routines
     <table>
             <tr>
                   <th>Morning Routine</th>
@@ -111,6 +113,7 @@ $(document).ready(function() {
 
     const comboSkin = 
     `
+    Your Routines
     <table>
             <tr>
                   <th>Morning Routine</th>

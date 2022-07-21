@@ -33,19 +33,19 @@
   }
   
   .mobile {
-      width: 84vw;
       background-color: #2C356B;
-      margin-left: 3vw;
-      margin-right: 3vw;
       padding: 5vw;
       /*padding-top: 50vh;*/
       color: white;
       text-align:center;
       font-family: Optima, sans-serif;
       font-size: 300%;
-      border-radius: 25px;
       max-height: 90vh;
-      overflow: scroll;
+      overflow: visible;
+      border-top-left-radius: 70vw 10vw;
+      border-top-right-radius: 60vw 10vw;
+      position: relative;
+
     }
 
     .profileContainer {
@@ -54,10 +54,24 @@
         background-position: bottom;
         background-attachment: fixed;
         height: 15vh;
+        padding-top: 20vh;
+        z-index: 0;
+    }
+
+    .profilePicture {
+        position: absolute;
+        top: -6vh;
+        left: 35vw;
+        width: 25vw;
+        border: 3vw solid;
+        border-radius: 25vw;
+        border-color: #2C356B;
+
     }
   
     #quizResults {
       font-size: 80% !important;
+      margin-top: 4vh;
     }
   
   
@@ -189,6 +203,8 @@
   .logocontainer {
     background-color: #414D88;
     padding-bottom: 1vh;
+    position: fixed;
+    width: 100vw;
   }
   
   .navbar {
