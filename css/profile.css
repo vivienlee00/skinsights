@@ -50,8 +50,8 @@
 
     .profileContainer {
         background-image: url("../assets/chelseaBanner.png");
-        background-size: contain;
-        background-position: bottom;
+        background-size: 100%;
+        background-position: top;
         background-attachment: fixed;
         height: 15vh;
         padding-top: 20vh;
