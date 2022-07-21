@@ -2,6 +2,11 @@
     font-family: Optima;
     src: url(../assets/Optima-Regular.ttf);
   }
+
+  @font-face {
+    font-family: Abel;
+    src: url(../assets/Abel-Regular.ttf);
+  }
   
   body {
     margin: 0;
@@ -38,7 +43,7 @@
       /*padding-top: 50vh;*/
       color: white;
       text-align:center;
-      font-family: Optima, sans-serif;
+      font-family: Abel, Verdana, Optima, sans-serif;
       font-size: 300%;
       max-height: 90vh;
       overflow: visible;
@@ -68,12 +73,20 @@
         border-color: #2C356B;
         z-index: 0;
     }
+
+    #profileNickname{
+        position: relative;
+        z-index: 1;
+        margin: 0;
+        margin-top: 7vw;
+        font-family: Abel, Verdana, Optima, sans-serif;
+    }
   
     #quizResults {
       font-size: 80% !important;
-      margin-top: 40vh;
+      padding-top: 4vh;
+      padding-bottom: 10vh
     }
-  
   
   button {
     appearance: none;
@@ -144,7 +157,6 @@
       color: #002343;
       cursor: pointer;
       display: inline-block;
-      font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
       font-size: 14px;
       font-weight: 500;
       line-height: 20px;
@@ -172,8 +184,8 @@
     border-width: 0;
     box-shadow: 0px 1px #888888;
     font-size: 2vh;
-    font-family: Verdana, Optima, sans-serif;
-  }
+    font-family: Abel, Verdana, Optima, sans-serif;
+}
   
   input[type=date] {
     height: 2em;
@@ -182,8 +194,8 @@
     border-width: 0;
     box-shadow: 0px 1px #888888;
     font-size: 2vh;
-    font-family: Verdana, Optima, sans-serif;
-  }
+    font-family: Abel, Verdana, Optima, sans-serif;
+}
   
   input[type=file] {
     height: 2em;
@@ -191,8 +203,8 @@
     border-width: 0;
     font-size: 2vh;
     margin-top: 1vh;
-    font-family: Verdana, Optima, sans-serif;
-  }
+    font-family: Abel, Verdana, Optima, sans-serif;
+}
   
   .logo {
     margin-top: 2vh;

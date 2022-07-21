@@ -1,3 +1,10 @@
+var nameField = '@chelsea-beauty'
+function submitProfile(){
+    nameField = '@' + document.getElementById('nickname').value;
+    sessionStorage.setItem("nameField", nameField);
+    window.location = 'FirstName.html';
+}
+
 jQuery(function ($) {
     $('.skinConcern').click(function () {
         $(this).toggleClass('highlight');
@@ -30,6 +37,9 @@ jQuery(function ($) {
 })
 
 $(document).ready(function() {
+
+    document.getElementById("profileNickname").innerHTML = sessionStorage.getItem("nameField");
+
     var skinType = sessionStorage.getItem("skinType");
     var skinProducts = JSON.parse(sessionStorage.getItem("skinProducts"));
 
