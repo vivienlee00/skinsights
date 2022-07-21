@@ -55,7 +55,7 @@
         background-attachment: fixed;
         height: 15vh;
         padding-top: 20vh;
-        z-index: 0;
+        z-index: -1;
     }
 
     .profilePicture {
@@ -66,12 +66,12 @@
         border: 3vw solid;
         border-radius: 25vw;
         border-color: #2C356B;
-
+        z-index: 0;
     }
   
     #quizResults {
       font-size: 80% !important;
-      margin-top: 4vh;
+      margin-top: 40vh;
     }
   
   
@@ -205,6 +205,7 @@
     padding-bottom: 1vh;
     position: fixed;
     width: 100vw;
+    z-index: 2;
   }
   
   .navbar {
