@@ -12,8 +12,13 @@
     margin: 0;
     background-image: url("../assets/signUpBG.png");
     background-size: cover;
+    background-attachment: fixed;
     min-height: 90vh;
     max-height: 90vh;
+  }
+
+  #posts {
+    padding-bottom: 10vh;
   }
   
   .skinConcern {
@@ -37,9 +42,9 @@
       background:rgb(206, 218, 226);
   }
   
-  .mobile {
+  .post {
     background-color: rgba(255, 255, 255, 0.25);
-    margin-top: 10vh;
+    margin-top: 2vh;
     margin-left: 3vw;
     margin-right: 3vw;
     padding: 5vw;
@@ -49,6 +54,14 @@
     font-size: 300%;
     border-radius: 25px;
     max-height: 20vh;
+  }
+
+  .postPhoto {
+    color: black;
+  }
+
+  #first{
+    margin-top: 10vh;
   }
   
   button {
