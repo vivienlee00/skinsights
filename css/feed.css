@@ -43,21 +43,74 @@
   }
   
   .post {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(236, 231, 222, 0.651);
     margin-top: 2vh;
     margin-left: 3vw;
     margin-right: 3vw;
-    padding: 5vw;
+    padding: 2vw;
     color: rgb(17, 49, 97);
     text-align:center;
     font-family: Optima, sans-serif;
     font-size: 300%;
     border-radius: 25px;
-    max-height: 20vh;
+    max-height: 108vw;
   }
 
   .postPhoto {
-    color: black;
+    object-fit: cover;
+    width: 90vw;
+    height: 90vw;
+    border-radius: 50px;
+  }
+
+  .postUsername {
+    font-family: Optima, sans-serif;
+    margin: 0;
+    text-align: left;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .postTimestamp {
+    font-family: Abel, Verdana, Optima, sans-serif;
+    margin: 0;
+    text-align: left;
+    margin-left: 1vw;
+    display: inline-block;
+  }
+
+  .postCaption {
+    display: inline-block;
+    font-family: Abel, Verdana, Optima, sans-serif;
+    font-size: 4.5vw;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4vw;
+    margin: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    max-width: 50vw;
+    max-height: 6vw;
+  }
+
+  .postCaption::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: 100%;
+      left: 4vw;
+      border: 1.3vw solid transparent;
+      border-top: none;
+      border-bottom-color: #fff;
+    }
+
+  .postLikeIcon {
+    display: inline-block;
+    position: absolute;
+    max-height: 6vw;
   }
 
   #first{
@@ -74,7 +127,6 @@
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-weight: 500;
     line-height: 20px;
     list-style: none;
