@@ -2,7 +2,13 @@ var nameField = '@chelsea-beauty'
 function submitProfile(){
     nameField = '@' + document.getElementById('nickname').value;
     sessionStorage.setItem("nameField", nameField);
-    window.location = 'FirstName.html';
+
+    //var file = document.querySelector('input[type=file]').files[0];
+    //https://codepen.io/thbwd/pen/qBKGwx
+    //https://stackoverflow.com/questions/5802580/html-input-type-file-get-the-image-before-submitting-the-form
+    //https://stackoverflow.com/questions/46319425/save-image-file-in-local-storage-and-retrieve-image-from-file-path-html-angularj
+    //https://stackoverflow.com/questions/19183180/how-to-save-an-image-to-localstorage-and-display-it-on-the-next-page
+    window.location = 'SkinConcerns.html';
 }
 
 jQuery(function ($) {
