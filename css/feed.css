@@ -11,8 +11,8 @@
   body {
     margin: 0;
     background-image: url("../assets/signUpBG.png");
+    background-attachment: fixed !important;
     background-size: cover;
-    background-attachment: fixed;
     min-height: 90vh;
     max-height: 90vh;
   }

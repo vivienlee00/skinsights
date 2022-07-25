@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Optima;
+    src: url(../assets/Optima-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Abel;
+    src: url(../assets/Abel-Regular.ttf);
+  }
+  
+  body {
+    margin: 0;
+    background-image: url("../assets/signUpBG.png");
+    background-attachment: fixed !important;
+    background-size: cover;
+    min-height: 90vh;
+    max-height: 90vh;
+  }
+  
+  .skinConcern {
+      background:rgb(255, 255, 255);
+  }
+  .skinConcern.highlight {
+      background:rgb(206, 218, 226);
+  }
+  
+  .skinType {
+      background:rgb(255, 255, 255);
+  }
+  .skinType.highlight {
+      background:rgb(206, 218, 226);
+  }
+  
+  .skinProduct {
+      background:rgb(255, 255, 255);
+  }
+  .skinProduct.highlight {
+      background:rgb(206, 218, 226);
+  }
+  
+  
+  button {
+    appearance: none;
+    background-color: #002343;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 26px 60px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    font-family: Optima, sans-serif;
+    font-size: 2vh;
+    height: 2em;
+  }
+  
+  button:hover {
+    background-color: #020f28;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  button:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  button:active {
+    background-color: #021229;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  button:focus {
+    outline: 1px transparent;
+  }
+  
+  button:before {
+    display: none;
+  }
+  
+  button:-webkit-details-marker {
+    display: none;
+  }
+    
+  .logo {
+    margin-top: 2vh;
+    margin-left: 3vw;
+    height: 5vh;
+  }
+
+  .logocontainer {
+    background-color: #414D88;
+    padding-bottom: 1vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    top: 0;
+  }
+  
+  .navbar {
+    background-color: #203768;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .navbar img{
+    height: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+.container {
+    margin: 2vw;
+    padding-top: 9vh;
+    padding-bottom: 8vh;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: repeat(6, 30vw);
+    grid-gap: 1.5vw;
+    justify-content: center;
+  }
+  
+  .cell {
+     /* center the cell content */
+     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: white;
+  }
+
+  .cell img {
+    object-fit: cover;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 20px;
+  }
