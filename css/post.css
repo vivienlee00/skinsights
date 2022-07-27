@@ -11,8 +11,6 @@
   body {
     margin: 0;
     background-color: black;
-    min-height: 90vh;
-    max-height: 90vh;
   }
   
   .skinConcern {
