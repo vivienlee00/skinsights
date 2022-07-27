@@ -224,3 +224,4 @@ $('[type="tel"]').focusout(phoneMask);
 //       x.className = "navbar";
 //     }
 //   }
+
