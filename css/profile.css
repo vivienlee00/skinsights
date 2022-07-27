@@ -237,3 +237,28 @@
     margin-left: 5vw;
     margin-right: 5vw;
   }
+
+  .container {
+    margin: 2vw;
+    /* padding-top: 3vh;
+    padding-bottom: 8vh; */
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(1, 15vw);
+    grid-gap: 1.5vw;
+    justify-content: center;
+  }
+  
+  .cell {
+     /* center the cell content */
+    border-radius: 20px;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    font-family: Abel, sans-serif, Optima;
+    font-size: 2vh;
+    background: transparent;
+  }
