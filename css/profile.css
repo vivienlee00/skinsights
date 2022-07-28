@@ -83,13 +83,13 @@
     }
   
     #quizResults {
-      background-color: #203768;
+      font-size: 300% !important;
+      background-color: #2C356B;
       text-align: center;
       font-family: Abel, sans-serif, Optima;
       color: white;
-      font-size: .5em !important;
       padding-top: 4vh;
-      /* padding-bottom: 10vh */
+      padding-bottom: 10vh
     }
   
   button {
@@ -293,7 +293,7 @@
     width: 100vw;
     height: calc(0.17279412 * 100vw);
     position: relative;
-    bottom: 0vh;
+    bottom: -5vh;
     margin-bottom: 6vh;
   }
 
@@ -302,7 +302,6 @@
     margin: 2vw;
     margin-left: 1vw;
     padding-top: 1vh;
-    margin-bottom: 10vh;
   }
   
   .calendarGrid {
@@ -325,9 +324,38 @@
     color: white;
   }
 
-  .calendarCell img {
-    object-fit: cover;
-    width: 10vw;
-    height: 10vw;
-    border-radius: 20px;
-  }
+#cal1 {
+  background-image: url('../assets/calendar/1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cal2 {
+  background-image: url('../assets/calendar/2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cal3 {
+  background-image: url('../assets/calendar/3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cal4 {
+  background-image: url('../assets/calendar/4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cal5 {
+  background-image: url('../assets/calendar/5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cal6 {
+  background-image: url('../assets/calendar/6.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cal7 {
+  background-image: url('../assets/calendar/7.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
