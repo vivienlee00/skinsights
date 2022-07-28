@@ -11,9 +11,8 @@
   body {
     margin: 0;
     background-image: url("../assets/signUpBG.png");
+    background-attachment: fixed;
     background-size: cover;
-    min-height: 100vh;
-    max-height: 100vh;
   }
   
   .skinConcern {
@@ -290,5 +289,39 @@
     height: calc(0.17279412 * 100vw);
     position: relative;
     bottom: -5vh;
+    margin-bottom: 6vh;
   }
 
+
+  .calendarContainer {
+    margin: 2vw;
+    margin-left: 1vw;
+    padding-top: 1vh;
+  }
+  
+  .calendarGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 10vw);
+    grid-template-rows: repeat(6, 10vw);
+    grid-gap: 1.5vw;
+    justify-content: space-evenly;
+  }
+  
+  .calendarCell {
+     /* center the cell content */
+     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Abel, sans-serif, Optima;
+    font-size: 3rem;
+    background: transparent;
+    color: white;
+  }
+
+  .calendarCell img {
+    object-fit: cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 20px;
+  }
