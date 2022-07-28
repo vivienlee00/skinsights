@@ -39,7 +39,7 @@
   
   .mobile {
       background-color: #2C356B;
-      padding: 5vw;
+      padding-top: 5vw;
       /*padding-top: 50vh;*/
       color: white;
       text-align:center;
@@ -262,3 +262,33 @@
     font-size: 2vh;
     background: transparent;
   }
+
+  .heroProducts {
+    background-image: url("../assets/profileHeroProducts.png");
+    background-size: contain;
+    width: 90vw;
+    height: calc(0.33434959349 * 90vw);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heroProduct {
+    height: calc(0.33434959349 * 60vw);
+    margin: 3vw;
+    margin-top: calc(0.33434959349 * 22vw);;
+  }
+
+  .blind {
+    text-align: center;
+    font-size: 3vh;
+    color: rgb(203, 203, 203);
+    font-family: Abel, sans-serif, Optima;
+    background-image: url("../assets/blind.png");
+    background-size: contain;
+    width: 100vw;
+    height: calc(0.17279412 * 100vw);
+    position: relative;
+    bottom: -5vh;
+  }
+
