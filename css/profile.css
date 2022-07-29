@@ -44,13 +44,12 @@
       text-align:center;
       font-family: Abel, Verdana, Optima, sans-serif;
       font-size: 300%;
-      max-height: 90vh;
       overflow: visible;
       border-top-left-radius: 70vw 10vw;
       border-top-right-radius: 60vw 10vw;
       position: relative;
-      margin-bottom: 12vw;
-
+      margin-bottom: 18vw;
+      height: 90vw;
     }
 
     .profileContainer {
@@ -293,8 +292,8 @@
     width: 100vw;
     height: calc(0.17279412 * 100vw);
     position: relative;
-    bottom: -5vh;
-    margin-bottom: 6vh;
+    bottom: 0;
+    margin-bottom: 8vh;
   }
 
 
@@ -358,4 +357,39 @@
   background-image: url('../assets/calendar/7.png');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.routineContainer {
+  margin: 3vw;
+  margin-top: 6vw;
+  margin-bottom: 0;
+  /* padding-top: 3vh;
+  padding-bottom: 8vh; */
+}
+
+.routineGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 15vw);
+  grid-template-rows: repeat(1, 15vw);
+  grid-gap: 1.5vw;
+  justify-content: space-evenly;
+}
+
+.routineCell {
+   /* center the cell content */
+  border-radius: 20px;
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  font-family: Abel, sans-serif, Optima;
+  font-size: 2vh;
+  background: white;
+  z-index: 1;
+}
+
+.routineCell img {
+  object-fit: cover;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 20px;
 }
