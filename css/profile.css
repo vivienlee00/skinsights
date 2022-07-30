@@ -363,6 +363,7 @@
   margin: 3vw;
   margin-top: 6vw;
   margin-bottom: 0;
+  max-width: 95vw;
   /* padding-top: 3vh;
   padding-bottom: 8vh; */
 }
