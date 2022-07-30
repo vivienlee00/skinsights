@@ -394,3 +394,55 @@
   height: 15vw;
   border-radius: 20px;
 }
+
+.overlay {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  width: 80vw;
+  display: block;
+  margin: auto;
+  margin-top: 50vh;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  background-color: #020f28;
+  transition: all 200ms;
+  font-size: 200%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 25px;
+  padding: 2vw;
+}
+.popup .close:hover {
+  color: #414D88;
+}
+.popup .content {
+  color: black;
+  max-height: 30%;
+  overflow: auto;
+}
