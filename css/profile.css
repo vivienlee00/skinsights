@@ -467,11 +467,12 @@
 .prodType {
   margin: 0;
   display: inline;
+  padding-left: 1vw;
 }
 
 .prodName {
   margin: 0;
-  font-size: 1vh;
+  font-size: 60%;
 }
 
 .productsContainer {

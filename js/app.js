@@ -98,11 +98,58 @@ $(document).ready(function() {
                   </div>
             </div>
       </div> 
-
     `;
 
     const oilySkinNight = 
     `
+    <div class="productsContainer">
+    <div class="productsGrid">
+          <div class="productsCell">
+          <p class="prodNum">1</p><p class="prodType">Makeup Remover</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <p class="prodName">Clinique Take the Day Off Cleansing Balm</p>
+          </div>
+
+          <div class="productsCell">
+          <p class="prodNum">1</p><p class="prodType">Cleanser</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <p class="prodName">Clinique All About CleanTM Liquid Facial Soap Oily</p>
+          </div>
+
+          <div class="productsCell">
+          <p class="prodNum">1</p><p class="prodType">Toner</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <p class="prodName">Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</p>
+          </div>
+
+          <div class="productsCell">
+          <p class="prodNum">1</p><p class="prodType">Serum</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <p class="prodName">Dr. Jart+ Pore Remedy PHA Exfoliating Serum</p>
+          </div>
+
+
+          <div class="productsCell">
+          <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <p class="prodName">Origins Ginzing Vitamin C & Niacinamide Eye Cream</p>
+          </div>
+
+          <div class="productsCell">
+          <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <p class="prodName">Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</p>
+          </div>
+
+
+          <div class="productsCell">
+          <p class="prodNum">1</p><p class="prodType">SPF</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <p class="prodName">Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</p>
+          </div>
+    </div>
+</div> 
+
     <table>
             <tr>
                   <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
