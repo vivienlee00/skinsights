@@ -51,40 +51,59 @@ $(document).ready(function() {
 
     const oilySkinMorning = 
     `
-    <table>
-            <tr>
-                  <th>Morning Routine</th>
-            </tr>
-            <tr>
-                  <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 4</td>
-            </tr>
-            <tr>
-                  <td class="cleanser">Cleanser: Origins Checks and Balances Polishing Face Scrub</td>
-            </tr>
-            <tr>
-                  <td class="toner">Toner: Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</td>
-            </tr>
-            <tr>
-                  <td class="serum">Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
-            </tr>
-            <tr>
-                  <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-            </tr>
-            <tr>
-                  <td class="moisturizer">Moisturizer: Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</td>
-            </tr>
-            <tr>
-                  <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
-            </tr>
-    </table>
+      <div class="productsContainer">
+            <div class="productsGrid">
+                  <div class="productsCell">
+                  <p class="prodNum">1</p><p class="prodType">Exfoliator</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <p class="prodName">Clinique Clarifying Lotion Exfoliator 4</p>
+                  </div>
+
+                  <div class="productsCell">
+                  <p class="prodNum">1</p><p class="prodType">Cleanser</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <p class="prodName">Origins Checks and Balances Polishing Face Scrub</p>
+                  </div>
+
+                  <div class="productsCell">
+                  <p class="prodNum">1</p><p class="prodType">Toner</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <p class="prodName">Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</p>
+                  </div>
+
+                  <div class="productsCell">
+                  <p class="prodNum">1</p><p class="prodType">Serum</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <p class="prodName">Dr. Jart+ Pore Remedy PHA Exfoliating Serum</p>
+                  </div>
+
+
+                  <div class="productsCell">
+                  <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <p class="prodName">Origins Ginzing Vitamin C & Niacinamide Eye Cream</p>
+                  </div>
+
+                  <div class="productsCell">
+                  <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <p class="prodName">Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</p>
+                  </div>
+
+
+                  <div class="productsCell">
+                  <p class="prodNum">1</p><p class="prodType">SPF</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <p class="prodName">Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</p>
+                  </div>
+            </div>
+      </div> 
+
     `;
 
     const oilySkinNight = 
     `
     <table>
-            <tr>
-                  <th>Night Routine</th>
-            </tr>
             <tr>
                   <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
             </tr>
@@ -114,9 +133,6 @@ $(document).ready(function() {
     `
     <table>
             <tr>
-                  <th>Morning Routine</th>
-            </tr>
-            <tr>
                   <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 1.0 Alcohol-free</td>
                   </tr>
             <tr>
@@ -143,9 +159,6 @@ $(document).ready(function() {
     const drySkinNight = 
     `
     <table>
-            <tr>
-                  <th>Night Routine</th>
-            </tr>
             <tr>
                   <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
                   </tr>
@@ -175,9 +188,6 @@ $(document).ready(function() {
     `
     <table>
             <tr>
-                  <th>Morning Routine</th>
-            </tr>
-            <tr>
                   <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 2</td>
             </tr>
             <tr>
@@ -204,9 +214,6 @@ $(document).ready(function() {
     const comboSkinNight = 
     `
     <table>
-            <tr>
-                  <th>Night Routine</th>
-            </tr>
             <tr>
                   <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
                   </tr>

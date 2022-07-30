@@ -414,7 +414,7 @@
   padding: 6vw;
   padding-top: 4vh;
   padding-bottom: 6vh;
-  background: #fff;
+  background: #a8bfd8;
   border-radius: 20px;
   width: 85vw;
   display: block;
@@ -450,9 +450,55 @@
   color: #414D88;
 }
 .popup .content {
-  text-align: left;
   color: black;
-  max-height: 30%;
-  overflow: auto;
-  margin-bottom: 4vh;
+  overflow: visible;
+}
+
+.prodNum {
+  background-color: #2C356B;
+  border-radius: 100%;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  color: #fff;
+  margin: 0;
+  display: inline;
+}
+
+.prodType {
+  margin: 0;
+  display: inline;
+}
+
+.prodName {
+  margin: 0;
+  font-size: 1vh;
+}
+
+.productsContainer {
+  width: 85vw;
+}
+
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 30vw);
+  grid-template-rows: repeat(3, 20vh);
+  grid-gap: 1.5vw;
+  justify-content: space-evenly;
+}
+
+.productsCell {
+   /* center the cell content */
+  border-radius: 20px;
+  justify-content: center;
+  align-items: start;
+  font-family: Abel, sans-serif, Optima;
+  font-size: 2vh;
+  background: transparent;
+  z-index: 1;
+}
+
+.productsCell img {
+  width: 11vh;
+  height: 11vh;
 }
