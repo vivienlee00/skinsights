@@ -49,145 +49,203 @@ $(document).ready(function() {
     var skinType = sessionStorage.getItem("skinType");
     var skinProducts = JSON.parse(sessionStorage.getItem("skinProducts"));
 
-    const oilySkin = 
+    const oilySkinMorning = 
     `
-    Your Routines
     <table>
             <tr>
                   <th>Morning Routine</th>
-                  <th>Night Routine</th>
             </tr>
             <tr>
                   <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 4</td>
-                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
             </tr>
             <tr>
                   <td class="cleanser">Cleanser: Origins Checks and Balances Polishing Face Scrub</td>
-                  <td class="cleanser">Cleanser: Clinique All About CleanTM Liquid Facial Soap Oily</td>
             </tr>
             <tr>
                   <td class="toner">Toner: Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</td>
-                  <td class="toner">Toner: GlamGlow SUPERTONER Exfoliating Acid Solution</td>
             </tr>
             <tr>
-                  <td class="serum">Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
                   <td class="serum">Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
             </tr>
             <tr>
                   <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-                  <td class="eyeCream">Eye Cream: Origins EYE DOCTOR Moisture Care For Skin Around Eyes</td>
             </tr>
             <tr>
                   <td class="moisturizer">Moisturizer: Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</td>
-                  <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
             </tr>
             <tr>
                   <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+            </tr>
+    </table>
+    `;
+
+    const oilySkinNight = 
+    `
+    <table>
+            <tr>
+                  <th>Night Routine</th>
+            </tr>
+            <tr>
+                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
+            </tr>
+            <tr>
+                  <td class="cleanser">Cleanser: Clinique All About CleanTM Liquid Facial Soap Oily</td>
+            </tr>
+            <tr>
+                  <td class="toner">Toner: GlamGlow SUPERTONER Exfoliating Acid Solution</td>
+            </tr>
+            <tr>
+                  <td class="serum">Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
+            </tr>
+            <tr>
+                  <td class="eyeCream">Eye Cream: Origins EYE DOCTOR Moisture Care For Skin Around Eyes</td>
+            </tr>
+            <tr>
+                  <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
+            </tr>
+            <tr>
                   <td class="masks">Face Mask: GlamGlow BRIGHTMUDTM Dual-Action Exfoliating Treatment Mask</td>
             </tr>
     </table>
     `;
 
-    const drySkin = 
+
+    const drySkinMorning = 
     `
-    Your Routines
     <table>
             <tr>
                   <th>Morning Routine</th>
-                  <th>Night Routine</th>
             </tr>
             <tr>
                   <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 1.0 Alcohol-free</td>
-                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
                   </tr>
             <tr>
                   <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
-                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
             </tr>
             <tr>
-                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
                   <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
             </tr>
             <tr>
                   <td class="serum">Serum: Origins Ginzing Into the Glow Brightening Serum</td>
-                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
             </tr>
             <tr>
                   <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
             </tr>
             <tr>
                   <td class="moisturizer">Moisturizer: Dr. Jart+ Ceramidin Cream</td>
-                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
             </tr>
             <tr>
                   <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+            </tr>
+    </table>
+    `;
+
+    const drySkinNight = 
+    `
+    <table>
+            <tr>
+                  <th>Night Routine</th>
+            </tr>
+            <tr>
+                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
+                  </tr>
+            <tr>
+                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
+            </tr>
+            <tr>
+                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
+            </tr>
+            <tr>
+                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
+            </tr>
+            <tr>
+                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
+            </tr>
+            <tr>
+                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
+            </tr>
+            <tr>
                   <td class="masks">Face Mask: GlamGlow THIRSTYMUD 24 Hour Hydrating Treatment Mask</td>
             </tr>
     </table>
     `;
 
-    const comboSkin = 
+
+    const comboSkinMorning = 
     `
-    Your Routines
     <table>
             <tr>
                   <th>Morning Routine</th>
-                  <th>Night Routine</th>
             </tr>
             <tr>
                   <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 2</td>
-                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
-                  </tr>
+            </tr>
             <tr>
-                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
                   <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
             </tr>
             <tr>
-                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
                   <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
             </tr>
             <tr>
                   <td class="serum">Serum: Origins Ginzing Into the Glow Brightening Serum</td>
-                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
             </tr>
             <tr>
                   <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
             </tr>
             <tr>
                   <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
-                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
             </tr>
             <tr>
                   <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
+            </tr>
+    </table>
+    `;
+
+    const comboSkinNight = 
+    `
+    <table>
+            <tr>
+                  <th>Night Routine</th>
+            </tr>
+            <tr>
+                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
+                  </tr>
+            <tr>
+                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
+            </tr>
+            <tr>
+                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
+            </tr>
+            <tr>
+                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
+            </tr>
+            <tr>
+                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
+            </tr>
+            <tr>
+                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
+            </tr>
+            <tr>
                   <td class="masks">Face Mask: Clinique Acne Solutions Oil-Control Cleansing Face Mask</td>
             </tr>
     </table>
     `;
 
+
     console.log(skinProducts);
     if (skinType == "oily"){
-        document.getElementById("quizResults").innerHTML = oilySkin;
+        document.getElementById("quizResultsMorning").innerHTML = oilySkinMorning;
+        document.getElementById("quizResultsNight").innerHTML = oilySkinNight;
     }
 
     if (skinType == "dry"){
-        document.getElementById("quizResults").innerHTML = drySkin;
+        document.getElementById("quizResultsMorning").innerHTML = drySkinMorning;
+        document.getElementById("quizResultsNight").innerHTML = drySkinNight;
     }
 
     if (skinType == "combination" || skinType == "unsure"){
-        document.getElementById("quizResults").innerHTML = comboSkin;
-    }
-
-    w3.hide('td');
-
-    skinProducts.forEach(showProducts);
-    if (skinProducts.includes("exfoliator")){
-      document.getElementById("exfoliatorProd").style.color = "white";
-    }
-
-    if (skinProducts.includes("spf")){
-      document.getElementById("spfProd").style.color = "white";
+        document.getElementById("quizResultsNight").innerHTML = comboSkinNight;
+        document.getElementById("quizResultsMorning").innerHTML = comboSkinMorning;
     }
 
 });
