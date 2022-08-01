@@ -53,47 +53,47 @@ $(document).ready(function() {
     `
       <div class="productsContainer">
             <div class="productsGrid">
-                  <div class="productsCell">
+                  <div class="productsCell exfoliator">
                   <p class="prodNum">1</p><p class="prodType">Exfoliator</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyMorningExfoliator.png"></a>
                   <p class="prodName">Clinique Clarifying Lotion Exfoliator 4</p>
                   </div>
 
-                  <div class="productsCell">
+                  <div class="productsCell cleanser">
                   <p class="prodNum">1</p><p class="prodType">Cleanser</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyMorningCleanser.png"></a>
                   <p class="prodName">Origins Checks and Balances Polishing Face Scrub</p>
                   </div>
 
-                  <div class="productsCell">
+                  <div class="productsCell toner">
                   <p class="prodNum">1</p><p class="prodType">Toner</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyMorningToner.jpg"></a>
                   <p class="prodName">Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</p>
                   </div>
 
-                  <div class="productsCell">
+                  <div class="productsCell serum">
                   <p class="prodNum">1</p><p class="prodType">Serum</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilySerumPoreRemedy.png"></a>
                   <p class="prodName">Dr. Jart+ Pore Remedy PHA Exfoliating Serum</p>
                   </div>
 
 
-                  <div class="productsCell">
+                  <div class="productsCell eyeCream">
                   <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/morningEyeCream.png"></a>
                   <p class="prodName">Origins Ginzing Vitamin C & Niacinamide Eye Cream</p>
                   </div>
 
-                  <div class="productsCell">
+                  <div class="productsCell moisturizer">
                   <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyMorningMoisturizer.png"></a>
                   <p class="prodName">Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</p>
                   </div>
 
 
-                  <div class="productsCell">
+                  <div class="productsCell spf">
                   <p class="prodNum">1</p><p class="prodType">SPF</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/spf.png"></a>
                   <p class="prodName">Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</p>
                   </div>
             </div>
@@ -104,185 +104,261 @@ $(document).ready(function() {
     `
     <div class="productsContainer">
     <div class="productsGrid">
-          <div class="productsCell">
+          <div class="productsCell makeupRemover">
           <p class="prodNum">1</p><p class="prodType">Makeup Remover</p>
-          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/takeOffTheDay.png"></a>
           <p class="prodName">Clinique Take the Day Off Cleansing Balm</p>
           </div>
 
-          <div class="productsCell">
+          <div class="productsCell cleanser">
           <p class="prodNum">1</p><p class="prodType">Cleanser</p>
-          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyNightCleanser.jpg"></a>
           <p class="prodName">Clinique All About CleanTM Liquid Facial Soap Oily</p>
           </div>
 
-          <div class="productsCell">
+          <div class="productsCell toner">
           <p class="prodNum">1</p><p class="prodType">Toner</p>
-          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
-          <p class="prodName">Origins Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyNightSuperToner.png"></a>
+          <p class="prodName">GlamGlow SUPERTONER Exfoliating Acid Solution</p>
           </div>
 
-          <div class="productsCell">
+          <div class="productsCell serum">
           <p class="prodNum">1</p><p class="prodType">Serum</p>
-          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilySerumPoreRemedy.png"></a>
           <p class="prodName">Dr. Jart+ Pore Remedy PHA Exfoliating Serum</p>
           </div>
 
 
-          <div class="productsCell">
+          <div class="productsCell eyeCream">
           <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
-          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
-          <p class="prodName">Origins Ginzing Vitamin C & Niacinamide Eye Cream</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyNightEyeCream.png"></a>
+          <p class="prodName">Origins EYE DOCTOR Moisture Care For Skin Around Eyes</p>
           </div>
 
-          <div class="productsCell">
+          <div class="productsCell moisturizer">
           <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
-          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
-          <p class="prodName">Origins Ginzing Oil Free Energy Boosting Gel Moisturizer</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/moistureSurgeOilyNightComboMorning.png"></a>
+          <p class="prodName">Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</p>
           </div>
 
 
-          <div class="productsCell">
-          <p class="prodNum">1</p><p class="prodType">SPF</p>
-          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/Products/profileTakeOffTheDay.png"></a>
-          <p class="prodName">Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</p>
+          <div class="productsCell masks">
+          <p class="prodNum">1</p><p class="prodType">Mask</p>
+          <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/oilyNightFaceMaskGlamGlow.png"></a>
+          <p class="prodName">GlamGlow BRIGHTMUD Dual-Action Exfoliating Treatment Mask</p>
           </div>
     </div>
 </div> 
-
-    <table>
-            <tr>
-                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
-            </tr>
-            <tr>
-                  <td class="cleanser">Cleanser: Clinique All About CleanTM Liquid Facial Soap Oily</td>
-            </tr>
-            <tr>
-                  <td class="toner">Toner: GlamGlow SUPERTONER Exfoliating Acid Solution</td>
-            </tr>
-            <tr>
-                  <td class="serum">Serum: Dr. Jart+ Pore Remedy PHA Exfoliating Serum</td>
-            </tr>
-            <tr>
-                  <td class="eyeCream">Eye Cream: Origins EYE DOCTOR Moisture Care For Skin Around Eyes</td>
-            </tr>
-            <tr>
-                  <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
-            </tr>
-            <tr>
-                  <td class="masks">Face Mask: GlamGlow BRIGHTMUDTM Dual-Action Exfoliating Treatment Mask</td>
-            </tr>
-    </table>
     `;
 
 
     const drySkinMorning = 
     `
-    <table>
-            <tr>
-                  <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 1.0 Alcohol-free</td>
-                  </tr>
-            <tr>
-                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
-            </tr>
-            <tr>
-                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
-            </tr>
-            <tr>
-                  <td class="serum">Serum: Origins Ginzing Into the Glow Brightening Serum</td>
-            </tr>
-            <tr>
-                  <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-            </tr>
-            <tr>
-                  <td class="moisturizer">Moisturizer: Dr. Jart+ Ceramidin Cream</td>
-            </tr>
-            <tr>
-                  <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
-            </tr>
-    </table>
+
+          <div class="productsContainer">
+            <div class="productsGrid">
+                  <div class="productsCell exfoliator">
+                  <p class="prodNum">1</p><p class="prodType">Exfoliator</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryMorningExfoliator.png"></a>
+                  <p class="prodName">Clinique Clarifying Lotion Exfoliator 1.0 Alcohol-free</p>
+                  </div>
+
+                  <div class="productsCell cleanser">
+                  <p class="prodNum">1</p><p class="prodType">Cleanser</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboCleanser.png"></a>
+                  <p class="prodName">Origins Checks and Balances Frothy Face Wash</p>
+                  </div>
+
+                  <div class="productsCell toner">
+                  <p class="prodNum">1</p><p class="prodType">Toner</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboToner.png"></a>
+                  <p class="prodName">Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</p>
+                  </div>
+
+                  <div class="productsCell serum">
+                  <p class="prodNum">1</p><p class="prodType">Serum</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboMorningSerum.png"></a>
+                  <p class="prodName">Origins Ginzing Into the Glow Brightening Serum</p>
+                  </div>
+
+
+                  <div class="productsCell eyeCream">
+                  <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/morningEyeCream.png"></a>
+                  <p class="prodName">Origins Ginzing Vitamin C & Niacinamide Eye Cream</p>
+                  </div>
+
+                  <div class="productsCell moisturizer">
+                  <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryMorningMoisturizer.png"></a>
+                  <p class="prodName">Dr. Jart+ Ceramidin Cream</p>
+                  </div>
+
+
+                  <div class="productsCell spf">
+                  <p class="prodNum">1</p><p class="prodType">SPF</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/spf.png"></a>
+                  <p class="prodName">Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</p>
+                  </div>
+            </div>
+      </div> 
     `;
 
     const drySkinNight = 
     `
-    <table>
-            <tr>
-                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
-                  </tr>
-            <tr>
-                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
-            </tr>
-            <tr>
-                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
-            </tr>
-            <tr>
-                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
-            </tr>
-            <tr>
-                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
-            </tr>
-            <tr>
-                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
-            </tr>
-            <tr>
-                  <td class="masks">Face Mask: GlamGlow THIRSTYMUD 24 Hour Hydrating Treatment Mask</td>
-            </tr>
-    </table>
+    <div class="productsContainer">
+      <div class="productsGrid">
+
+            <div class="productsCell makeupRemover">
+            <p class="prodNum">1</p><p class="prodType">Makeup Remover</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/takeOffTheDay.png"></a>
+            <p class="prodName">Clinique Take the Day Off Cleansing Balm</p>
+            </div>
+
+            <div class="productsCell cleanser">
+            <p class="prodNum">1</p><p class="prodType">Cleanser</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboCleanser.png"></a>
+            <p class="prodName">Origins Checks and Balances Frothy Face Wash</p>
+            </div>
+
+            <div class="productsCell toner">
+            <p class="prodNum">1</p><p class="prodType">Toner</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboToner.png"></a>
+            <p class="prodName">Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</p>
+            </div>
+
+            <div class="productsCell serum">
+            <p class="prodNum">1</p><p class="prodType">Serum</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboNightSerum.png"></a>
+            <p class="prodName">Origins Three Part Harmony Oil-Infused Serum For Renewal, Repair And Radiance</p>
+            </div>
+
+
+            <div class="productsCell eyeCream">
+            <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboNightEyeCream.png"></a>
+            <p class="prodName">Clinique All About Eyes</p>
+            </div>
+
+            <div class="productsCell moisturizer">
+            <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboNightMoisturizer.png"></a>
+            <p class="prodName">Clinique Dramatically Different Moisturizing Lotion+</p>
+            </div>
+
+
+            <div class="productsCell masks">
+            <p class="prodNum">1</p><p class="prodType">Mask</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryNightFaceMask.jpg"></a>
+            <p class="prodName">GlamGlow THIRSTYMUD 24 Hour Hydrating Treatment Mask</p>
+            </div>
+      </div>
+    </div> 
     `;
 
 
     const comboSkinMorning = 
     `
-    <table>
-            <tr>
-                  <td id="exfoliatorProd" class="exfoliator">Exfoliator: Clinique Clarifying Lotion Exfoliator 2</td>
-            </tr>
-            <tr>
-                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
-            </tr>
-            <tr>
-                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
-            </tr>
-            <tr>
-                  <td class="serum">Serum: Origins Ginzing Into the Glow Brightening Serum</td>
-            </tr>
-            <tr>
-                  <td class="eyeCream">Eye Cream: Origins Ginzing Vitamin C & Niacinamide Eye Cream</td>
-            </tr>
-            <tr>
-                  <td class="moisturizer">Moisturizer: Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</td>
-            </tr>
-            <tr>
-                  <td id="spfProd" class="spf">SPF: Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</td>
-            </tr>
-    </table>
+      <div class="productsContainer">
+            <div class="productsGrid">
+                  <div class="productsCell exfoliator">
+                  <p class="prodNum">1</p><p class="prodType">Exfoliator</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/comboMorningExfoliator.png"></a>
+                  <p class="prodName">Clinique Clarifying Lotion Exfoliator 2</p>
+                  </div>
+
+                  <div class="productsCell cleanser">
+                  <p class="prodNum">1</p><p class="prodType">Cleanser</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboCleanser.png"></a>
+                  <p class="prodName">Origins Checks and Balances Frothy Face Wash</p>
+                  </div>
+
+                  <div class="productsCell toner">
+                  <p class="prodNum">1</p><p class="prodType">Toner</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboToner.png"></a>
+                  <p class="prodName">Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</p>
+                  </div>
+
+                  <div class="productsCell serum">
+                  <p class="prodNum">1</p><p class="prodType">Serum</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboMorningSerum.png"></a>
+                  <p class="prodName">Origins Ginzing Into the Glow Brightening Serum</p>
+                  </div>
+
+
+                  <div class="productsCell eyeCream">
+                  <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/morningEyeCream.png"></a>
+                  <p class="prodName">Origins Ginzing Vitamin C & Niacinamide Eye Cream</p>
+                  </div>
+
+                  <div class="productsCell moisturizer">
+                  <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/moistureSurgeOilyNightComboMorning.png"></a>
+                  <p class="prodName">Clinique Moisture SurgeTM 100H Auto-Replenishing Hydrator</p>
+                  </div>
+
+
+                  <div class="productsCell spf">
+                  <p class="prodNum">1</p><p class="prodType">SPF</p>
+                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/spf.png"></a>
+                  <p class="prodName">Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</p>
+                  </div>
+            </div>
+      </div> 
     `;
 
     const comboSkinNight = 
     `
-    <table>
-            <tr>
-                  <td class="makeupRemover">Makeup Remover: Clinique Take the Day Off Cleansing Balm</td>
-                  </tr>
-            <tr>
-                  <td class="cleanser">Cleanser: Origins Checks and Balances Frothy Face Wash</td>
-            </tr>
-            <tr>
-                  <td class="toner">Toner: Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</td>
-            </tr>
-            <tr>
-                  <td class="serum">Serum: Dr. Jart+ Cicapair Tiger Grass Calming Serum Mask</td>
-            </tr>
-            <tr>
-                  <td class="eyeCream">Eye Cream: Clinique All About Eyes</td>
-            </tr>
-            <tr>
-                  <td class="moisturizer">Moisturizer: Clinique Dramatically Different Moisturizing Lotion+</td>
-            </tr>
-            <tr>
-                  <td class="masks">Face Mask: Clinique Acne Solutions Oil-Control Cleansing Face Mask</td>
-            </tr>
-    </table>
+
+    <div class="productsContainer">
+      <div class="productsGrid">
+
+            <div class="productsCell makeupRemover">
+            <p class="prodNum">1</p><p class="prodType">Makeup Remover</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/routines/takeOffTheDay.png"></a>
+            <p class="prodName">Clinique Take the Day Off Cleansing Balm</p>
+            </div>
+
+            <div class="productsCell cleanser">
+            <p class="prodNum">1</p><p class="prodType">Cleanser</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/routines/dryComboCleanser.png"></a>
+            <p class="prodName">Origins Checks and Balances Frothy Face Wash</p>
+            </div>
+
+            <div class="productsCell toner">
+            <p class="prodNum">1</p><p class="prodType">Toner</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src="assets/routines/dryComboToner.png"></a>
+            <p class="prodName">Dr. Jart+ CICAPAIRTM Tiger Grass Calming Mist</p>
+            </div>
+
+            <div class="productsCell serum">
+            <p class="prodNum">1</p><p class="prodType">Serum</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboNightSerum.png"></a>
+            <p class="prodName">Origins Three Part Harmony Oil-Infused Serum For Renewal, Repair And Radiance</p>
+            </div>
+
+
+            <div class="productsCell eyeCream">
+            <p class="prodNum">1</p><p class="prodType">Eye Cream</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboNightEyeCream.png"></a>
+            <p class="prodName">Clinique All About Eyes</p>
+            </div>
+
+            <div class="productsCell moisturizer">
+            <p class="prodNum">1</p><p class="prodType">Moisturizer</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/dryComboNightMoisturizer.png"></a>
+            <p class="prodName">Clinique Dramatically Different Moisturizing Lotion+</p>
+            </div>
+
+
+            <div class="productsCell masks">
+            <p class="prodNum">1</p><p class="prodType">Mask</p>
+            <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/comboNightMask.png"></a>
+            <p class="prodName">Clinique Acne Solutions Oil-Control Cleansing Face Mask</p>
+            </div>
+      </div>
+    </div> 
     `;
 
 
@@ -302,23 +378,17 @@ $(document).ready(function() {
         document.getElementById("quizResultsMorning").innerHTML = comboSkinMorning;
     }
 
+    w3.hide('.productsCell');
+
+    skinProducts.forEach(showProducts);
 });
+
 
 function showProducts(item, index){
       var prod = document.getElementsByClassName(item);
 
       for (var i = 0; i < prod.length; i++) {
             prod[i].style.removeProperty("display");
-
-            if (item == "makeupRemover"){
-                  document.getElementById("exfoliatorProd").style.removeProperty("display");
-                  document.getElementById("exfoliatorProd").style.color = "rgba(0, 0, 0, 0)";
-            }
-
-            if (item == "masks"){
-                  document.getElementById("spfProd").style.removeProperty("display");
-                  document.getElementById("spfProd").style.color = "rgba(0, 0, 0, 0)";
-            }
       }
 }
 

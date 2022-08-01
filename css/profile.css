@@ -502,4 +502,6 @@
 .productsCell img {
   width: 11vh;
   height: 11vh;
+  border-radius: 20px;
+  background-color: white;
 }
