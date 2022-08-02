@@ -461,7 +461,8 @@
   padding-right: 1vh;
   color: #fff;
   margin: 0;
-  display: inline;
+  /* display: inline; */
+  display: none;
 }
 
 .prodType {
@@ -482,7 +483,7 @@
 
 .productsGrid {
   display: grid;
-  grid-template-columns: repeat(3, 30vw);
+  grid-template-columns: repeat(3, 25vw);
   grid-template-rows: repeat(3, 20vh);
   grid-gap: 1.5vw;
   justify-content: space-evenly;
