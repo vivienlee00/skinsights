@@ -166,16 +166,17 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 45vw);
-    grid-template-rows: repeat(1, 30vw);
+    grid-template-rows: repeat(1, 21vh);
     grid-gap: 1.5vw;
     justify-content: space-between;
+    align-items: start;
+    justify-items: end;
   }
   
   .cell {
      /* center the cell content */
     border-radius: 20px;
-    align-items: start;
-    display: flex;
+    align-items: center;
     font-family: Arial;
     font-size: 2em;
     background-color: rgba(35, 41, 77, 0.468);
