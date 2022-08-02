@@ -300,7 +300,7 @@ $(document).ready(function() {
 
                   <div class="productsCell spf">
                   <p class="prodNum">1</p><p class="prodType">SPF</p>
-                  <a target="_blank" href="https://www.clinique.com/product/1673/6424/skincare/cleansers-makeup-removers/take-the-day-off-cleansing-balm"><img src=" assets/routines/spf.png"></a>
+                  <a target="_blank" href="https://www.drjart.com/product/29723/92640/sun-protection/every-sun-day-mineral-sunscreen-spf-50"><img src=" assets/routines/spf.png"></a>
                   <p class="prodName">Dr. Jart+ Every Sun Day Mineral Suncreen SPF 50+</p>
                   </div>
             </div>
