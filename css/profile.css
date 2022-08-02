@@ -454,6 +454,22 @@
   overflow: visible;
 }
 
+.close2{
+  background-color: #183977;
+  transition: all 200ms;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 25px;
+  padding: 2vw;
+  position: relative;
+  margin: 2vh;
+  left: 60vw;
+  top: 2vh;
+  font-family: Abel, Verdana, Optima, sans-serif;
+  font-size: 300%;
+}
+
 .prodNum {
   background-color: #2C356B;
   border-radius: 100%;
@@ -505,4 +521,14 @@
   height: 11vh;
   border-radius: 20px;
   background-color: white;
+}
+
+.calPost {
+  color: white !important;
+  text-decoration: none;
+}
+
+.postImgFull {
+  width: 85vw;
+  object-fit: cover;
 }
