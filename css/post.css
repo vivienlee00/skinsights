@@ -158,16 +158,15 @@
 
 .container {
     margin: 2vw;
-    padding-top: 3vh;
-    padding-bottom: 8vh;
+    padding-top: 2vh;
   }
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 20vw);
-    grid-template-rows: repeat(1, 20vw);
-    grid-gap: 1.5vw;
-    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 13vw);
+    grid-template-rows: repeat(1, 13vw);
+    grid-gap: 10vw;
+    justify-content: center;
   }
   
   .cell {
@@ -184,7 +183,7 @@
 
   .cell img {
     object-fit: cover;
-    width: 20vw;
-    height: 20vw;
+    width: 13vw;
+    height: 13vw;
     border-radius: 20px;
   }
