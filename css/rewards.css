@@ -52,7 +52,7 @@
     font-weight: 500;
     line-height: 20px;
     list-style: none;
-    padding: 26px 60px;
+    padding: 26px 30px;
     position: relative;
     transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
     user-select: none;
@@ -62,8 +62,10 @@
     white-space: nowrap;
     word-wrap: break-word;
     font-family: Optima, sans-serif;
-    font-size: 2vh;
-    height: 2em;
+    font-size: 2em;
+    height: 4vh;
+    margin-top: 80vw;
+    margin-left: 23.3vw;
   }
   
   button:hover {
@@ -160,13 +162,13 @@
  .container {
     margin: 2vw;
     padding-top: 0vh;
-    padding-bottom: 8vh;
+    padding-bottom: 0vh;
   }
   
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 45vw);
-    grid-template-rows: repeat(1, 21vh);
+    grid-template-rows: repeat(1, 19vh);
     grid-gap: 1.5vw;
     justify-content: space-between;
     align-items: start;

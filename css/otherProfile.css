@@ -75,7 +75,7 @@
         z-index: 0;
     }
 
-    #profileNickname{
+    #otherProfileNickname {
         position: relative;
         z-index: 1;
         margin: 0;
@@ -324,37 +324,37 @@
   }
 
 #cal1 {
-  background-image: url('../assets/calendar/1.png');
+  background-image: url('../assets/calendar/8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 #cal2 {
-  background-image: url('../assets/calendar/2.png');
+  background-image: url('../assets/calendar/8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 #cal3 {
-  background-image: url('../assets/calendar/3.png');
+  background-image: url('../assets/calendar/8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 #cal4 {
-  background-image: url('../assets/calendar/4.png');
+  background-image: url('../assets/calendar/8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 #cal5 {
-  background-image: url('../assets/calendar/5.png');
+  background-image: url('../assets/calendar/8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 #cal6 {
-  background-image: url('../assets/calendar/6.png');
+  background-image: url('../assets/calendar/8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 #cal7 {
-  background-image: url('../assets/calendar/7.png');
+  background-image: url('../assets/calendar/8.png');
   background-repeat: no-repeat;
   background-position: center;
 }
