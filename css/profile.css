@@ -179,37 +179,7 @@
       font-size: 2vh;
       height: 2em;
   }
-  
-  input[type=text], input[type=tel] {
-    margin-top: 1em;
-    height: 2em;
-    width: 15em;
-    border-radius: 15px;
-    border-width: 0;
-    box-shadow: 0px 1px #888888;
-    font-size: 2vh;
-    font-family: Abel, Verdana, Optima, sans-serif;
-}
-  
-  input[type=date] {
-    height: 2em;
-    width: 10em;
-    border-radius: 15px;
-    border-width: 0;
-    box-shadow: 0px 1px #888888;
-    font-size: 2vh;
-    font-family: Abel, Verdana, Optima, sans-serif;
-}
-  
-  input[type=file] {
-    height: 2em;
-    width: 15em;
-    border-width: 0;
-    font-size: 2vh;
-    margin-top: 1vh;
-    font-family: Abel, Verdana, Optima, sans-serif;
-}
-  
+    
   .logo {
     margin-top: 2vh;
     margin-left: 3vw;
@@ -533,4 +503,47 @@
 .postImgFull {
   width: 85vw;
   object-fit: cover;
+}
+
+.newRoutineLabelLarge {
+  margin: 0;
+  margin-top: 2vh;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 2vw;
+}
+
+.newRoutineLabel {
+  margin: 0;
+  margin-top: 2vh;
+  text-align: left;
+  font-weight: normal;
+  display: inline-block;
+  width: 40vw;
+}
+
+.newRoutineProductLarge {
+  height: 2em;
+  width: 83vw;
+  border-radius: 15px;
+  border-width: 0;
+  box-shadow: 0px 1px #888888;
+  font-size: 2vh;
+  font-family: Abel, Verdana, Optima, sans-serif;
+}
+
+.newRoutineProduct {
+  height: 2em;
+  width: 40vw;
+  margin-right: 1vw;
+  border-radius: 15px;
+  border-width: 0;
+  box-shadow: 0px 1px #888888;
+  font-size: 2vh;
+  font-family: Abel, Verdana, Optima, sans-serif;
+  display: inline-block;
+}
+
+.newRoutine {
+  margin-bottom: 5vh;
 }
