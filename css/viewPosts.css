@@ -48,12 +48,11 @@
     margin-left: 3vw;
     margin-right: 3vw;
     padding: 2vw;
-    color: rgb(17, 49, 97) !important;
+    color: rgb(17, 49, 97);
     text-align:center;
     font-family: Optima, sans-serif;
     font-size: 300%;
     border-radius: 25px;
-    max-height: 108vw;
   }
 
   .postPhoto {
@@ -93,7 +92,6 @@
     padding-right: 1.5vw;
     max-width: 50vw;
     max-height: 6vw;
-    color: rgb(17, 49, 97) !important;
   }
 
   .postCaption::before {
@@ -271,4 +269,32 @@
   .userProfileLink {
     color: rgb(17, 49, 97);
     text-decoration: none;
+  }
+
+  .container {
+    margin: 2vw;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 22vw);
+    grid-template-rows: repeat(1, 40vw);
+    grid-gap: 1vw;
+    justify-content: center;
+  }
+  
+  .cell {
+     /* center the cell content */
+     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: transparent;
+  }
+
+  .cell img {
+    width: 22vw;
   }
