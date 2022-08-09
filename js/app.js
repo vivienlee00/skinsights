@@ -1,3 +1,18 @@
+function uploadImg(input){
+    const imgPath = document.querySelector('input[type=file]').files[0];
+    const reader = new FileReader();
+
+    reader.addEventListener("load", function () {
+        // convert image file to base64 string and save to localStorage
+        localStorage.setItem("pfpData", reader.result);
+    }, false);
+
+    if (imgPath) {
+        reader.readAsDataURL(imgPath);
+    }
+}
+
+
 var nameField = '@chelsea-beauty'
 function submitProfile(){
     nameField = '@' + document.getElementById('nickname').value;
@@ -45,6 +60,7 @@ jQuery(function ($) {
 $(document).ready(function() {
 
     document.getElementById("profileNickname").innerHTML = sessionStorage.getItem("nameField");
+    document.getElementById("restingPlace").src = localStorage.getItem('pfpData');
 
     var skinType = sessionStorage.getItem("skinType");
     var skinProducts = JSON.parse(sessionStorage.getItem("skinProducts"));
