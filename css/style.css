@@ -161,6 +161,7 @@ input[type=date] {
 }
 
 input[type=file] {
+  font-size: 3vh;
 }
 
 .logo {
