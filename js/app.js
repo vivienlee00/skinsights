@@ -60,7 +60,12 @@ jQuery(function ($) {
 $(document).ready(function() {
 
     document.getElementById("profileNickname").innerHTML = sessionStorage.getItem("nameField");
-    document.getElementById("restingPlace").src = localStorage.getItem('pfpData');
+
+    if(localStorage.getItem('pfpData') === null) {
+        document.getElementById("restingPlace").src = "assets/defaultPfp.png";
+    } else {
+        document.getElementById("restingPlace").src = localStorage.getItem('pfpData');
+    }
 
     var skinType = sessionStorage.getItem("skinType");
     var skinProducts = JSON.parse(sessionStorage.getItem("skinProducts"));
