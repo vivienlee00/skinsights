@@ -161,11 +161,11 @@ input[type=date] {
 }
 
 input[type=file] {
-  height: 5em;
+  height: 3em;
   width: 15em;
   border-width: 0;
-  font-size: 2vh;
-  margin-top: 5vh;
+  font-size: 1vh;
+  margin-top: 3vh;
   font-family: Abel, Verdana, Optima, sans-serif;
 }
 
