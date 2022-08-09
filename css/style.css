@@ -161,12 +161,6 @@ input[type=date] {
 }
 
 input[type=file] {
-  height: 5em;
-  width: 15em;
-  border-width: 0;
-  font-size: 2vh;
-  margin-top: 1vh;
-  font-family: Abel, Verdana, Optima, sans-serif;
 }
 
 .logo {
