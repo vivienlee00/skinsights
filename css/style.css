@@ -164,7 +164,7 @@ input[type=file] {
   height: 5em;
   width: 15em;
   border-width: 0;
-  font-size: 1vh;
+  font-size: 2vh;
   margin-top: 5vh;
   font-family: Abel, Verdana, Optima, sans-serif;
 }
